@@ -95,18 +95,18 @@ pages:
     #   content: test description
     #   showWaveform: true
     #   enableLooping: true
-    #   reference: taudio/ref/AAA.wav
+    #   reference: audio/ref/AAA.wav
     #   createAnchor35: true
     #   createAnchor70: false
     #   randomize: false
     #   showConditionNames: true
     #   stimuli:
-    #       C1: taudio/mp3/AAA_mp3.wav
-    #       C2: taudio/aaclc/AAA_aac.wav
-    #       C3: taudio/heaacv1/AAA_aac.wav
-    #       C4: taudio/dac/AAA_dac_full.wav
-    #       C5: taudio/heaacv1/AAA_aac.wav
-    #       C6: taudio/sauber/gd_max30_lr0p08_cfg2.0_dcoff_encc32_deccoff_encw4_msc32_ninilinear_nit1p5/AAA_i200000.wav
+    #       C1: audio/mp3/AAA_mp3.wav
+    #       C2: audio/aaclc/AAA_aac.wav
+    #       C3: audio/heaacv1/AAA_aac.wav
+    #       C4: audio/dac/AAA_dac_full.wav
+    #       C5: audio/heaacv1/AAA_aac.wav
+    #       C6: audio/sauber/gd_max30_lr0p08_cfg2.0_dcoff_encc32_deccoff_encw4_msc32_ninilinear_nit1p5/AAA_i200000.wav
           
 
     - type: mushra
@@ -115,18 +115,18 @@ pages:
       content: test description
       showWaveform: true
       enableLooping: true
-      reference: taudio/ref/HarryPotter.wav
+      reference: audio/ref/HarryPotter.wav
       createAnchor35: true
       createAnchor70: false
       randomize: false
       showConditionNames: true
       stimuli:
-          C1: taudio/mp3/HarryPotter_mp3.wav
-          C2: taudio/aaclc/HarryPotter_aac.wav
-          C3: taudio/heaacv1/HarryPotter_aac.wav
-          C4: taudio/dac/HarryPotter_dac_full.wav
-          C5: taudio/heaacv1/HarryPotter_aac.wav
-          C6: taudio/sauber/gd_max30_lr0p08_cfg2.0_dcoff_encc32_deccoff_encw4_msc32_ninilinear_nit1p5/HarryPotter_i200000.wav
+          C1: audio/mp3/HarryPotter_mp3.wav
+          C2: audio/aaclc/HarryPotter_aac.wav
+          C3: audio/heaacv1/HarryPotter_aac.wav
+          C4: audio/dac/HarryPotter_dac_full.wav
+          C5: audio/heaacv1/HarryPotter_aac.wav
+          C6: audio/sauber/gd_max30_lr0p08_cfg2.0_dcoff_encc32_deccoff_encw4_msc32_ninilinear_nit1p5/HarryPotter_i200000.wav
     
     - type: mushra
       id: trial2
@@ -134,18 +134,18 @@ pages:
       content: test description
       showWaveform: true
       enableLooping: true
-      reference: taudio/ref/te15.wav
+      reference: audio/ref/te15.wav
       createAnchor35: true
       createAnchor70: false
       randomize: false
       showConditionNames: true
       stimuli:
-          C1: taudio/mp3/te15_mp3.wav
-          C2: taudio/aaclc/te15_aac.wav
-          C3: taudio/heaacv1/te15_aac.wav
-          C4: taudio/dac/te15_dac_full.wav
-          C5: taudio/heaacv1/te15_aac.wav
-          C6: taudio/sauber/gd_max30_lr0p08_cfg2.0_dcoff_encc32_deccoff_encw4_msc32_ninilinear_nit1p5/te15_i200000.wav
+          C1: audio/mp3/te15_mp3.wav
+          C2: audio/aaclc/te15_aac.wav
+          C3: audio/heaacv1/te15_aac.wav
+          C4: audio/dac/te15_dac_full.wav
+          C5: audio/heaacv1/te15_aac.wav
+          C6: audio/sauber/gd_max30_lr0p08_cfg2.0_dcoff_encc32_deccoff_encw4_msc32_ninilinear_nit1p5/te15_i200000.wav
 
 
     - type: finish
