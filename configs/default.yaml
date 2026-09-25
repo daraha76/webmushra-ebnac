@@ -95,18 +95,18 @@ pages:
     #   content: test description
     #   showWaveform: true
     #   enableLooping: true
-    #   reference: /home/bhkim98/webMUSHRA/audio/ref/AAA.m4a
+    #   reference: audio/ref/AAA.m4a
     #   createAnchor35: true
     #   createAnchor70: false
     #   randomize: false
     #   showConditionNames: true
     #   stimuli:
-    #       C1: /home/bhkim98/webMUSHRA/audio/mp3/AAA.mp3
-    #       C2: /home/bhkim98/webMUSHRA/audio/aaclc/AAA.m4a
-    #       C3: /home/bhkim98/webMUSHRA/audio/heaacv1/AAA.m4a
-    #       C4: /home/bhkim98/webMUSHRA/audio/dac/AAA_dac_full.m4a
-    #       C5: /home/bhkim98/webMUSHRA/audio/heaacv1/AAA.m4a
-    #       C6: /home/bhkim98/webMUSHRA/audio/ebnac/AAA_i200000.m4a
+    #       C1: audio/mp3/AAA.mp3
+    #       C2: audio/aaclc/AAA.m4a
+    #       C3: audio/heaacv1/AAA.m4a
+    #       C4: audio/dac/AAA_dac_full.m4a
+    #       C5: audio/heaacv1/AAA.m4a
+    #       C6: audio/ebnac/AAA_i200000.m4a
           
 
     - type: mushra
@@ -115,18 +115,18 @@ pages:
       content: test description
       showWaveform: true
       enableLooping: true
-      reference: /home/bhkim98/webMUSHRA/audio/ref/HarryPotter.m4a
+      reference: audio/ref/HarryPotter.m4a
       createAnchor35: true
       createAnchor70: false
       randomize: false
       showConditionNames: true
       stimuli:
-          C1: /home/bhkim98/webMUSHRA/audio/mp3/HarryPotter.mp3
-          C2: /home/bhkim98/webMUSHRA/audio/aaclc/HarryPotter.m4a
-          C3: /home/bhkim98/webMUSHRA/audio/heaacv1/HarryPotter.m4a
-          C4: /home/bhkim98/webMUSHRA/audio/dac/HarryPotter_dac_full.m4a
-          C5: /home/bhkim98/webMUSHRA/audio/heaacv1/HarryPotter.m4a
-          C6: /home/bhkim98/webMUSHRA/audio/ebnac/HarryPotter_i200000.m4a
+          C1: audio/mp3/HarryPotter.mp3
+          C2: audio/aaclc/HarryPotter.m4a
+          C3: audio/heaacv1/HarryPotter.m4a
+          C4: audio/dac/HarryPotter_dac_full.m4a
+          C5: audio/heaacv1/HarryPotter.m4a
+          C6: audio/ebnac/HarryPotter_i200000.m4a
     
     - type: mushra
       id: trial2
@@ -134,18 +134,18 @@ pages:
       content: test description
       showWaveform: true
       enableLooping: true
-      reference: /home/bhkim98/webMUSHRA/audio/ref/te15.m4a
+      reference: audio/ref/te15.m4a
       createAnchor35: true
       createAnchor70: false
       randomize: false
       showConditionNames: true
       stimuli:
-          C1: /home/bhkim98/webMUSHRA/audio/mp3/te15.mp3
-          C2: /home/bhkim98/webMUSHRA/audio/aaclc/te15.m4a
-          C3: /home/bhkim98/webMUSHRA/audio/heaacv1/te15.m4a
-          C4: /home/bhkim98/webMUSHRA/audio/dac/te15_dac_full.m4a
-          C5: /home/bhkim98/webMUSHRA/audio/heaacv1/te15.m4a
-          C6: /home/bhkim98/webMUSHRA/audio/ebnac/te15_i200000.m4a
+          C1: audio/mp3/te15.mp3
+          C2: audio/aaclc/te15.m4a
+          C3: audio/heaacv1/te15.m4a
+          C4: audio/dac/te15_dac_full.m4a
+          C5: audio/heaacv1/te15.m4a
+          C6: audio/ebnac/te15_i200000.m4a
 
     - type: finish
       name: Thank you
