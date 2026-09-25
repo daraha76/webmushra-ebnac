@@ -1,6 +1,6 @@
 testname: MUSHRA EBNAC testing 9 items
 testId: mushra_ebnac_24
-bufferSize: 8192
+bufferSize: 4096
 stopOnErrors: true
 showButtonPreviousPage: true
 showConditionNames: false
@@ -17,8 +17,8 @@ pages:
   showWaveform: true
   enableLooping: true
   reference: audio/ref/te1_mg54_speech.m4a
-  createAnchor35: true
-  createAnchor70: false
+  createAnchors:
+  - 35
   randomize: true
   showConditionNames: false
   stimuli:
@@ -33,8 +33,8 @@ pages:
   showWaveform: true
   enableLooping: true
   reference: audio/ref/carrot_speech.m4a
-  createAnchor35: true
-  createAnchor70: false
+  createAnchors:
+  - 35
   randomize: true
   showConditionNames: false
   stimuli:
@@ -49,8 +49,8 @@ pages:
   showWaveform: true
   enableLooping: true
   reference: audio/ref/es03.m4a
-  createAnchor35: true
-  createAnchor70: false
+  createAnchors:
+  - 35
   randomize: true
   showConditionNames: false
   stimuli:
@@ -65,8 +65,8 @@ pages:
   showWaveform: true
   enableLooping: true
   reference: audio/ref/te16_fe49.m4a
-  createAnchor35: true
-  createAnchor70: false
+  createAnchors:
+  - 35
   randomize: true
   showConditionNames: false
   stimuli:
@@ -81,8 +81,8 @@ pages:
   showWaveform: true
   enableLooping: true
   reference: audio/ref/Alice.m4a
-  createAnchor35: true
-  createAnchor70: false
+  createAnchors:
+  - 35
   randomize: true
   showConditionNames: false
   stimuli:
@@ -97,8 +97,8 @@ pages:
   showWaveform: true
   enableLooping: true
   reference: audio/ref/noodleking.m4a
-  createAnchor35: true
-  createAnchor70: false
+  createAnchors:
+  - 35
   randomize: true
   showConditionNames: false
   stimuli:
@@ -113,8 +113,8 @@ pages:
   showWaveform: true
   enableLooping: true
   reference: audio/ref/te15.m4a
-  createAnchor35: true
-  createAnchor70: false
+  createAnchors:
+  - 35
   randomize: true
   showConditionNames: false
   stimuli:
@@ -129,8 +129,8 @@ pages:
   showWaveform: true
   enableLooping: true
   reference: audio/ref/Wedding_music.m4a
-  createAnchor35: true
-  createAnchor70: false
+  createAnchors:
+  - 35
   randomize: true
   showConditionNames: false
   stimuli:
@@ -145,8 +145,8 @@ pages:
   showWaveform: true
   enableLooping: true
   reference: audio/ref/sc03.m4a
-  createAnchor35: true
-  createAnchor70: false
+  createAnchors:
+  - 35
   randomize: true
   showConditionNames: false
   stimuli:
