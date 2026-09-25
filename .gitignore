@@ -5,7 +5,7 @@ dist
 builds/
 results/*
 !results/results_will_be_added_here.txt
-
+_audio*
 #####=== Node ===#####
 
 # Logs

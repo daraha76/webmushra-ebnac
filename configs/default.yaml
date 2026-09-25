@@ -98,7 +98,7 @@ pages:
     #   reference: audio/ref/AAA.wav
     #   createAnchor35: true
     #   createAnchor70: false
-    #   randomize: false
+    #   randomize: true
     #   showConditionNames: true
     #   stimuli:
     #       C1: audio/mp3/AAA_mp3.wav
@@ -118,7 +118,7 @@ pages:
       reference: audio/ref/HarryPotter.wav
       createAnchor35: true
       createAnchor70: false
-      randomize: false
+      randomize: true
       showConditionNames: true
       stimuli:
           C1: audio/mp3/HarryPotter_mp3.wav
@@ -137,7 +137,7 @@ pages:
       reference: audio/ref/te15.wav
       createAnchor35: true
       createAnchor70: false
-      randomize: false
+      randomize: true
       showConditionNames: true
       stimuli:
           C1: audio/mp3/te15_mp3.wav
