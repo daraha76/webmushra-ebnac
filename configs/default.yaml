@@ -1,18 +1,32 @@
-testname: Minimal Test
-testId: minimal_test
+testname: Step 2 - Questionnaire Test
+testId: debug_step_2
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
 showConditionNames: false
 pages:
+  - type: questionnaire
+    id: prolific_info
+    name: Prolific Verification
+    content: Please verify your Prolific ID before beginning.
+    questions:
+      - id: prolific_id
+        type: text
+        label: Prolific ID
+        required: true
   - type: mushra
     id: trial1
-    name: Test Trial
+    name: Mono Trial
+    content: test description
+    showWaveform: true
+    enableLooping: true
     reference: audio/ref/te1_mg54_speech.m4a
+    randomize: true
+    showConditionNames: false
     stimuli:
       dac: audio/dac/te1_mg54_speech_dac_full.m4a
   - type: finish
     name: Thank you
-    content: Done
+    content: Thank you for attending.
     showResults: true
     writeResults: false
