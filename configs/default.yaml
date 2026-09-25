@@ -17,11 +17,11 @@ pages:
   randomize: true
   showConditionNames: true
   stimuli:
-    dac: audio/dac/te16_fe49_dac_full.m4a
-    mp3: audio/mp3/te16_fe49.m4a
-    ebnac: audio/ebnac/te19_i200000.m4a
-    heaacv1: audio/heaacv1/te15.m4a
-    aaclc: audio/aaclc/te15.m4a
+    dac: audio/dac/te1_mg54_speech_dac_full.m4a
+    mp3: audio/mp3/te1_mg54_speech.m4a
+    ebnac: audio/ebnac/te1_mg54_speech_i200000.m4a
+    heaacv1: audio/heaacv1/te1_mg54_speech.m4a
+    aaclc: audio/aaclc/te1_mg54_speech.m4a
 - type: mushra
   id: trial2
   name: Mono Trial
@@ -96,17 +96,17 @@ pages:
   content: test description
   showWaveform: true
   enableLooping: true
-  reference: audio/ref/SpeechOverMusic_3.m4a
+  reference: audio/ref/noodleking.m4a
   createAnchor35: true
   createAnchor70: false
   randomize: true
   showConditionNames: true
   stimuli:
-    dac: audio/dac/SpeechOverMusic_2_dac_full.m4a
-    mp3: audio/mp3/SpeechOverMusic_4.m4a
-    ebnac: audio/ebnac/SpeechOverMusic_2_i200000.m4a
-    heaacv1: audio/heaacv1/SpeechOverMusic_4.m4a
-    aaclc: audio/aaclc/SpeechOverMusic_4.m4a
+    dac: audio/dac/noodleking_dac_full.m4a
+    mp3: audio/mp3/noodleking.m4a
+    ebnac: audio/ebnac/noodleking_i200000.m4a
+    heaacv1: audio/heaacv1/noodleking.m4a
+    aaclc: audio/aaclc/noodleking.m4a
 - type: mushra
   id: trial7
   name: Mono Trial
@@ -139,8 +139,8 @@ pages:
     dac: audio/dac/Wedding_music_dac_full.m4a
     mp3: audio/mp3/Wedding_music.m4a
     ebnac: audio/ebnac/Wedding_music_i200000.m4a
-    heaacv1: audio/heaacv1/Wedding_speech.m4a
-    aaclc: audio/aaclc/Wedding_speech.m4a
+    heaacv1: audio/heaacv1/Wedding_music.m4a
+    aaclc: audio/aaclc/Wedding_music.m4a
 - type: mushra
   id: trial9
   name: Mono Trial
