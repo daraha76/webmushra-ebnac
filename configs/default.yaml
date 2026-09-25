@@ -79,7 +79,7 @@
 
 # test config mushra page, 2 trials: 1) not randomized, condition names shown 2) 
 
-testname: MUSHRA EBNAC
+testname: MUSHRA EBNAC testing 2 items
 testId: mushra_ebnac_24
 bufferSize: 2048
 stopOnErrors: true
@@ -88,27 +88,6 @@ remoteService: service/write.php
 
 
 pages:
-
-    # - type: mushra
-    #   id: trial0
-    #   name: Mono Trial
-    #   content: test description
-    #   showWaveform: true
-    #   enableLooping: true
-    #   reference: audio/ref/AAA.m4a
-    #   createAnchor35: true
-    #   createAnchor70: false
-    #   randomize: false
-    #   showConditionNames: true
-    #   stimuli:
-    #       C1: audio/mp3/AAA.mp3
-    #       C2: audio/aaclc/AAA.m4a
-    #       C3: audio/heaacv1/AAA.m4a
-    #       C4: audio/dac/AAA_dac_full.m4a
-    #       C5: audio/heaacv1/AAA.m4a
-    #       C6: audio/ebnac/AAA_i200000.m4a
-          
-
     - type: mushra
       id: trial1
       name: Mono Trial
@@ -121,12 +100,11 @@ pages:
       randomize: false
       showConditionNames: true
       stimuli:
-          C1: audio/mp3/HarryPotter.mp3
+          C1: audio/mp3/HarryPotter.m4a
           C2: audio/aaclc/HarryPotter.m4a
           C3: audio/heaacv1/HarryPotter.m4a
           C4: audio/dac/HarryPotter_dac_full.m4a
-          C5: audio/heaacv1/HarryPotter.m4a
-          C6: audio/ebnac/HarryPotter_i200000.m4a
+          C5: audio/ebnac/HarryPotter_i200000.m4a
     
     - type: mushra
       id: trial2
@@ -140,12 +118,11 @@ pages:
       randomize: false
       showConditionNames: true
       stimuli:
-          C1: audio/mp3/te15.mp3
+          C1: audio/mp3/te15.m4a
           C2: audio/aaclc/te15.m4a
           C3: audio/heaacv1/te15.m4a
           C4: audio/dac/te15_dac_full.m4a
-          C5: audio/heaacv1/te15.m4a
-          C6: audio/ebnac/te15_i200000.m4a
+          C5: audio/ebnac/te15_i200000.m4a
 
     - type: finish
       name: Thank you
