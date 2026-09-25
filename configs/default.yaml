@@ -1,6 +1,6 @@
 testname: MUSHRA EBNAC testing 9 items
 testId: mushra_ebnac_24
-bufferSize: 4096
+bufferSize: 8192
 stopOnErrors: true
 showButtonPreviousPage: true
 showConditionNames: false
@@ -9,142 +9,164 @@ pages:
 - type: generic
   id: instructions
   name: Test Instructions
-  content: <h3>MUSHRA Listening Test Instructions</h3><p><b>Setup:</b> Please use high-quality <b>headphones or earphones</b> in a quiet environment. Set your volume to a comfortable level before starting and keep it constant throughout the test.</p><h4>Procedure:</h4><ul><li>For each trial, listen to the <b>Reference</b> button first to familiarize yourself with the original sound.</li><li>Listen to each condition button and compare it directly to the Reference.</li><li>Rate each condition on a continuous scale from <b>0 to 100</b> based on its similarity and quality relative to the Reference.</li></ul><h4>Rating Scale (ITU-R BS.1534):</h4><ul><li><b>80 - 100 (Excellent):</b> Impairments are imperceptible or barely noticeable. Sounds virtually identical to the Reference.</li><li><b>60 - 80 (Good):</b> Impairments are perceptible but not annoying. Slight degradation in clarity, spatialness, or timbre.</li><li><b>40 - 60 (Fair):</b> Impairments are slightly annoying. Quality drop is obvious, but audio remains intelligible.</li><li><b>20 - 40 (Poor):</b> Impairments are annoying (e.g., muffliness, distortion, metallic ringing).</li><li><b>0 - 20 (Bad):</b> Impairments are very annoying. Severe distortion or heavy corruption.</li></ul><h4>Key Audio Artifacts to Listen For:</h4><ul><li><b>High-Frequency Loss:</b> Loss of high-pitched clarity or brightness (e.g., muffled speech or dull cymbals).</li><li><b>Signal Distortion and Colorization:</b> Unnatural changes in voice/instrument timbre (e.g., robotic, metallic, or hollow tone).</li><li><b>Missing Audio Components:</b> Subtle dropouts, truncated sound tails, or missing background details present in the Reference.</li><li><b>Noisy or Rough Reconstruction:</b> Added hiss, grainy textures, or unnatural buzzing over clean audio.</li></ul><h4>Critical Rules:</h4><ol><li><b>Find the Hidden Reference:</b> One condition is an exact copy of the Reference. You <b>MUST</b> rate this condition <b>exactly 100</b>.</li><li><b>Focus on Impairments:</b> Rate strictly on how much the processed audio deviates from or degrades relative to the Reference, not on personal musical/vocal preference.</li></ol>
-- type: mushra
-  id: trial1
-  name: Trial 1 of 9
-  content: Rate the test items relative to the Reference.
-  showWaveform: true
-  enableLooping: true
-  reference: audio/ref/te1_mg54_speech.m4a
-  createAnchors: [35]
+  content: <h3>MUSHRA Listening Test Instructions</h3><p><b>Setup:</b> Please use high-quality <b>headphones or earphones</b> in a quiet environment. Set your volume to a comfortable level before starting and keep it constant throughout the test.</p><h4>Procedure:</h4><ul><li>For each trial, listen to the <b>Reference</b> button first to familiarize yourself with the original sound.</li><li>Listen to each condition button and compare it directly to the Reference.</li><li>Rate each condition on a continuous scale from <b>0 to 100</b> based on its similarity and quality relative to the Reference.</li></ul><h4>Rating Scale (ITU-R BS.1534):</h4><ul><li><b>80 - 100 (Excellent):</b> Impairments are imperceptible or barely noticeable. Sounds virtually identical to the Reference.</li><li><b>60 - 80 (Good):</b> Impairments are perceptible but not annoying. Slight degradation in clarity, spatialness, or timbre.</li><li><b>40 - 60 (Fair):</b> Impairments are slightly annoying. Quality drop is obvious, but audio remains intelligible.</li><li><b>20 - 40 (Poor):</b> Impairments are annoying (e.g., muffliness, distortion, metallic ringing).</li><li><b>0 - 20 (Bad):</b> Impairments are very annoying. Severe distortion or heavy corruption.</li></ul><h4>Key Audio Artifacts to Listen For:</h4><ul><li><b>High-Frequency Loss:</b> Loss of high-pitched clarity or brightness (e.g., muffled speech or dull cymbals).</li><li><b>Signal Distortion and Colorization:</b> Unnatural changes in voice/instrument timbre (e.g., robotic, metallic, or hollow tone).</li><li><b>Missing Audio Components:</b> Subtle dropouts, truncated sound tails, or missing background details present in the Reference.</li><li><b>Noisy or Rough Reconstruction:</b> Added hiss, grainy textures, or unnatural buzzing over clean audio.</li></ul><h4>Critical Rules:</h4><ol><li><b>Find the Hidden Reference:</b> One condition is an exact copy of the Reference. You <b>MUST</b> rate this condition <b>exactly 100</b>.</li><li><b>Rate the Anchor:</b> The low-anchor condition (3.5 kHz low-pass filtered) should typically be rated in the <b>0 to 20 range</b>.</li><li><b>Focus on Impairments:</b> Rate strictly on how much the processed audio deviates from or degrades relative to the Reference, not on personal musical/vocal preference.</li></ol>
+- type: group
+  id: trial_group
   randomize: true
-  showConditionNames: false
-  stimuli:
-    dac: audio/dac/te1_mg54_speech_dac_full.m4a
-    ebnac: audio/ebnac/te1_mg54_speech_i200000.m4a
-    heaacv1: audio/heaacv1/te1_mg54_speech.m4a
-    aaclc: audio/aaclc/te1_mg54_speech.m4a
-- type: mushra
-  id: trial2
-  name: Trial 2 of 9
-  content: Rate the test items relative to the Reference.
-  showWaveform: true
-  enableLooping: true
-  reference: audio/ref/carrot_speech.m4a
-  createAnchors: [35]
-  randomize: true
-  showConditionNames: false
-  stimuli:
-    dac: audio/dac/carrot_speech_dac_full.m4a
-    ebnac: audio/ebnac/carrot_speech_i200000.m4a
-    heaacv1: audio/heaacv1/carrot_speech.m4a
-    aaclc: audio/aaclc/carrot_speech.m4a
-- type: mushra
-  id: trial3
-  name: Trial 3 of 9
-  content: Rate the test items relative to the Reference.
-  showWaveform: true
-  enableLooping: true
-  reference: audio/ref/es03.m4a
-  createAnchors: [35]
-  randomize: true
-  showConditionNames: false
-  stimuli:
-    dac: audio/dac/es03_dac_full.m4a
-    ebnac: audio/ebnac/es03_i200000.m4a
-    heaacv1: audio/heaacv1/es03.m4a
-    aaclc: audio/aaclc/es03.m4a
-- type: mushra
-  id: trial4
-  name: Trial 4 of 9
-  content: Rate the test items relative to the Reference.
-  showWaveform: true
-  enableLooping: true
-  reference: audio/ref/te16_fe49.m4a
-  createAnchors: [35]
-  randomize: true
-  showConditionNames: false
-  stimuli:
-    dac: audio/dac/te16_fe49_dac_full.m4a
-    ebnac: audio/ebnac/te16_fe49_i200000.m4a
-    heaacv1: audio/heaacv1/te16_fe49.m4a
-    aaclc: audio/aaclc/te16_fe49.m4a
-- type: mushra
-  id: trial5
-  name: Trial 5 of 9
-  content: Rate the test items relative to the Reference.
-  showWaveform: true
-  enableLooping: true
-  reference: audio/ref/Alice.m4a
-  createAnchors: [35]
-  randomize: true
-  showConditionNames: false
-  stimuli:
-    dac: audio/dac/Alice_dac_full.m4a
-    ebnac: audio/ebnac/Alice_i200000.m4a
-    heaacv1: audio/heaacv1/Alice.m4a
-    aaclc: audio/aaclc/Alice.m4a
-- type: mushra
-  id: trial6
-  name: Trial 6 of 9
-  content: Rate the test items relative to the Reference.
-  showWaveform: true
-  enableLooping: true
-  reference: audio/ref/noodleking.m4a
-  createAnchors: [35]
-  randomize: true
-  showConditionNames: false
-  stimuli:
-    dac: audio/dac/noodleking_dac_full.m4a
-    ebnac: audio/ebnac/noodleking_i200000.m4a
-    heaacv1: audio/heaacv1/noodleking.m4a
-    aaclc: audio/aaclc/noodleking.m4a
-- type: mushra
-  id: trial7
-  name: Trial 7 of 9
-  content: Rate the test items relative to the Reference.
-  showWaveform: true
-  enableLooping: true
-  reference: audio/ref/te15.m4a
-  createAnchors: [35]
-  randomize: true
-  showConditionNames: false
-  stimuli:
-    dac: audio/dac/te15_dac_full.m4a
-    ebnac: audio/ebnac/te15_i200000.m4a
-    heaacv1: audio/heaacv1/te15.m4a
-    aaclc: audio/aaclc/te15.m4a
-- type: mushra
-  id: trial8
-  name: Trial 8 of 9
-  content: Rate the test items relative to the Reference.
-  showWaveform: true
-  enableLooping: true
-  reference: audio/ref/Wedding_music.m4a
-  createAnchors: [35]
-  randomize: true
-  showConditionNames: false
-  stimuli:
-    dac: audio/dac/Wedding_music_dac_full.m4a
-    ebnac: audio/ebnac/Wedding_music_i200000.m4a
-    heaacv1: audio/heaacv1/Wedding_music.m4a
-    aaclc: audio/aaclc/Wedding_music.m4a
-- type: mushra
-  id: trial9
-  name: Trial 9 of 9
-  content: Rate the test items relative to the Reference.
-  showWaveform: true
-  enableLooping: true
-  reference: audio/ref/sc03.m4a
-  createAnchors: [35]
-  randomize: true
-  showConditionNames: false
-  stimuli:
-    dac: audio/dac/sc03_dac_full.m4a
-    ebnac: audio/ebnac/sc03_i200000.m4a
-    heaacv1: audio/heaacv1/sc03.m4a
-    aaclc: audio/aaclc/sc03.m4a
+  children:
+  - type: mushra
+    id: trial1
+    name: Trial 1
+    content: Rate the test items relative to the Reference.
+    showWaveform: true
+    enableLooping: true
+    reference: audio/ref/te1_mg54_speech.m4a
+    createAnchor35: true
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      dac: audio/dac/te1_mg54_speech_dac_full.m4a
+      mp3: audio/mp3/te1_mg54_speech.m4a
+      ebnac: audio/ebnac/te1_mg54_speech_i200000.m4a
+      heaacv1: audio/heaacv1/te1_mg54_speech.m4a
+      aaclc: audio/aaclc/te1_mg54_speech.m4a
+  - type: mushra
+    id: trial2
+    name: Trial 2
+    content: Rate the test items relative to the Reference.
+    showWaveform: true
+    enableLooping: true
+    reference: audio/ref/carrot_speech.m4a
+    createAnchor35: true
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      dac: audio/dac/carrot_speech_dac_full.m4a
+      mp3: audio/mp3/carrot_speech.m4a
+      ebnac: audio/ebnac/carrot_speech_i200000.m4a
+      heaacv1: audio/heaacv1/carrot_speech.m4a
+      aaclc: audio/aaclc/carrot_speech.m4a
+  - type: mushra
+    id: trial3
+    name: Trial 3
+    content: Rate the test items relative to the Reference.
+    showWaveform: true
+    enableLooping: true
+    reference: audio/ref/es03.m4a
+    createAnchor35: true
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      dac: audio/dac/es03_dac_full.m4a
+      mp3: audio/mp3/es03.m4a
+      ebnac: audio/ebnac/es03_i200000.m4a
+      heaacv1: audio/heaacv1/es03.m4a
+      aaclc: audio/aaclc/es03.m4a
+  - type: mushra
+    id: trial4
+    name: Trial 4
+    content: Rate the test items relative to the Reference.
+    showWaveform: true
+    enableLooping: true
+    reference: audio/ref/te16_fe49.m4a
+    createAnchor35: true
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      dac: audio/dac/te16_fe49_dac_full.m4a
+      mp3: audio/mp3/te16_fe49.m4a
+      ebnac: audio/ebnac/te16_fe49_i200000.m4a
+      heaacv1: audio/heaacv1/te16_fe49.m4a
+      aaclc: audio/aaclc/te16_fe49.m4a
+  - type: mushra
+    id: trial5
+    name: Trial 5
+    content: Rate the test items relative to the Reference.
+    showWaveform: true
+    enableLooping: true
+    reference: audio/ref/Alice.m4a
+    createAnchor35: true
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      dac: audio/dac/Alice_dac_full.m4a
+      mp3: audio/mp3/Alice.m4a
+      ebnac: audio/ebnac/Alice_i200000.m4a
+      heaacv1: audio/heaacv1/Alice.m4a
+      aaclc: audio/aaclc/Alice.m4a
+  - type: mushra
+    id: trial6
+    name: Trial 6
+    content: Rate the test items relative to the Reference.
+    showWaveform: true
+    enableLooping: true
+    reference: audio/ref/noodleking.m4a
+    createAnchor35: true
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      dac: audio/dac/noodleking_dac_full.m4a
+      mp3: audio/mp3/noodleking.m4a
+      ebnac: audio/ebnac/noodleking_i200000.m4a
+      heaacv1: audio/heaacv1/noodleking.m4a
+      aaclc: audio/aaclc/noodleking.m4a
+  - type: mushra
+    id: trial7
+    name: Trial 7
+    content: Rate the test items relative to the Reference.
+    showWaveform: true
+    enableLooping: true
+    reference: audio/ref/te15.m4a
+    createAnchor35: true
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      dac: audio/dac/te15_dac_full.m4a
+      mp3: audio/mp3/te15.m4a
+      ebnac: audio/ebnac/te15_i200000.m4a
+      heaacv1: audio/heaacv1/te15.m4a
+      aaclc: audio/aaclc/te15.m4a
+  - type: mushra
+    id: trial8
+    name: Trial 8
+    content: Rate the test items relative to the Reference.
+    showWaveform: true
+    enableLooping: true
+    reference: audio/ref/Wedding_music.m4a
+    createAnchor35: true
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      dac: audio/dac/Wedding_music_dac_full.m4a
+      mp3: audio/mp3/Wedding_music.m4a
+      ebnac: audio/ebnac/Wedding_music_i200000.m4a
+      heaacv1: audio/heaacv1/Wedding_music.m4a
+      aaclc: audio/aaclc/Wedding_music.m4a
+  - type: mushra
+    id: trial9
+    name: Trial 9
+    content: Rate the test items relative to the Reference.
+    showWaveform: true
+    enableLooping: true
+    reference: audio/ref/sc03.m4a
+    createAnchor35: true
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      dac: audio/dac/sc03_dac_full.m4a
+      mp3: audio/mp3/sc03.m4a
+      ebnac: audio/ebnac/sc03_i200000.m4a
+      heaacv1: audio/heaacv1/sc03.m4a
+      aaclc: audio/aaclc/sc03.m4a
 - type: finish
   name: Thank you
   content: Thank you for attending. Your results have been submitted.
