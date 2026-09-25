@@ -1,5 +1,86 @@
-testname: webMUSHRA Example
-testId: default_example
+# testname: webMUSHRA Example
+# testId: default_example
+# bufferSize: 2048
+# stopOnErrors: true
+# showButtonPreviousPage: true
+# remoteService: service/write.php
+
+
+# pages:
+#     - type: generic
+#       id: first_page
+#       name: Welcome
+#       content: Welcome to webMUSHRA!       
+#     - type: mushra
+#       id: trial1
+#       name: MUSHRA
+#       content: This training shows how to use our user interface. Please perform the underlined instructions to proceed with the training session. Reminder: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
+#       showWaveform: true
+#       enableLooping: true 
+#       reference: configs/resources/audio/mono_ref.wav
+#       createAnchor35: true
+#       createAnchor70: true
+#       stimuli:
+#           C1: configs/resources/audio/mono_c1.wav
+#           C2: configs/resources/audio/mono_c2.wav
+#           C3: configs/resources/audio/mono_c3.wav
+#     - 
+#           - random
+#           - type: mushra
+#             id: trial_random_1
+#             name: MUSHRA - Random 2
+#             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
+#             enableLooping: true 
+#             reference: configs/resources/audio/mono_ref.wav
+#             createAnchor35: false
+#             createAnchor70: false
+#             stimuli:
+#                 C1: configs/resources/audio/mono_c1.wav
+#                 C2: configs/resources/audio/mono_c2.wav
+#                 C3: configs/resources/audio/mono_c3.wav          
+#           - type: mushra
+#             id: trial_random_2
+#             name: MUSHRA - Random 1
+#             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
+#             enableLooping: true 
+#             reference: configs/resources/audio/mono_ref.wav
+#             createAnchor35: false
+#             createAnchor70: false
+#             stimuli:
+#                 C1: configs/resources/audio/mono_c1.wav
+#                 C2: configs/resources/audio/mono_c2.wav
+#                 C3: configs/resources/audio/mono_c3.wav          
+#     - type: finish
+#       name: Thank you
+#       content: Thank you for attending!
+#       showResults: true
+#       writeResults: true
+#       questionnaire:
+#           - type: text
+#             label: eMail
+#             name: email
+#           - type: number
+#             label: Age
+#             name: age
+#             min: 0
+#             max: 100
+#             default: 30
+#           - type: likert
+#             name: gender
+#             label: Gender
+#             response:
+#              - value: female
+#                label: Female
+#              - value: male
+#                label: Male
+#              - value: other
+#                label: Other
+
+
+# test config mushra page, 2 trials: 1) not randomized, condition names shown 2) 
+
+testname: MUSHRA EBNAC
+testId: mushra_ebnac_24
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
@@ -7,71 +88,69 @@ remoteService: service/write.php
 
 
 pages:
-    - type: generic
-      id: first_page
-      name: Welcome
-      content: Welcome to webMUSHRA!       
+
+    # - type: mushra
+    #   id: trial0
+    #   name: Mono Trial
+    #   content: test description
+    #   showWaveform: true
+    #   enableLooping: true
+    #   reference: /home/bhkim98/webMUSHRA/audio/ref/AAA.wav
+    #   createAnchor35: true
+    #   createAnchor70: false
+    #   randomize: false
+    #   showConditionNames: true
+    #   stimuli:
+    #       C1: /home/bhkim98/webMUSHRA/audio/mp3/AAA_mp3.wav
+    #       C2: /home/bhkim98/webMUSHRA/audio/aaclc/AAA_aac.wav
+    #       C3: /home/bhkim98/webMUSHRA/audio/heaacv1/AAA_aac.wav
+    #       C4: /home/bhkim98/webMUSHRA/audio/dac/AAA_dac_full.wav
+    #       C5: /home/bhkim98/webMUSHRA/audio/heaacv1/AAA_aac.wav
+    #       C6: /home/bhkim98/webMUSHRA/audio/sauber/gd_max30_lr0p08_cfg2.0_dcoff_encc32_deccoff_encw4_msc32_ninilinear_nit1p5/AAA_i200000.wav
+          
+
     - type: mushra
       id: trial1
-      name: MUSHRA
-      content: This training shows how to use our user interface. Please perform the underlined instructions to proceed with the training session. Reminder: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
+      name: Mono Trial
+      content: test description
       showWaveform: true
-      enableLooping: true 
-      reference: configs/resources/audio/mono_ref.wav
+      enableLooping: true
+      reference: /home/bhkim98/webMUSHRA/audio/ref/HarryPotter.wav
       createAnchor35: true
-      createAnchor70: true
+      createAnchor70: false
+      randomize: false
+      showConditionNames: true
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
-    - 
-          - random
-          - type: mushra
-            id: trial_random_1
-            name: MUSHRA - Random 2
-            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
-            enableLooping: true 
-            reference: configs/resources/audio/mono_ref.wav
-            createAnchor35: false
-            createAnchor70: false
-            stimuli:
-                C1: configs/resources/audio/mono_c1.wav
-                C2: configs/resources/audio/mono_c2.wav
-                C3: configs/resources/audio/mono_c3.wav          
-          - type: mushra
-            id: trial_random_2
-            name: MUSHRA - Random 1
-            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
-            enableLooping: true 
-            reference: configs/resources/audio/mono_ref.wav
-            createAnchor35: false
-            createAnchor70: false
-            stimuli:
-                C1: configs/resources/audio/mono_c1.wav
-                C2: configs/resources/audio/mono_c2.wav
-                C3: configs/resources/audio/mono_c3.wav          
+          C1: /home/bhkim98/webMUSHRA/audio/mp3/HarryPotter_mp3.wav
+          C2: /home/bhkim98/webMUSHRA/audio/aaclc/HarryPotter_aac.wav
+          C3: /home/bhkim98/webMUSHRA/audio/heaacv1/HarryPotter_aac.wav
+          C4: /home/bhkim98/webMUSHRA/audio/dac/HarryPotter_dac_full.wav
+          C5: /home/bhkim98/webMUSHRA/audio/heaacv1/HarryPotter_aac.wav
+          C6: /home/bhkim98/webMUSHRA/audio/sauber/gd_max30_lr0p08_cfg2.0_dcoff_encc32_deccoff_encw4_msc32_ninilinear_nit1p5/HarryPotter_i200000.wav
+    
+    - type: mushra
+      id: trial2
+      name: Mono Trial
+      content: test description
+      showWaveform: true
+      enableLooping: true
+      reference: /home/bhkim98/webMUSHRA/audio/ref/te15.wav
+      createAnchor35: true
+      createAnchor70: false
+      randomize: false
+      showConditionNames: true
+      stimuli:
+          C1: /home/bhkim98/webMUSHRA/audio/mp3/te15_mp3.wav
+          C2: /home/bhkim98/webMUSHRA/audio/aaclc/te15_aac.wav
+          C3: /home/bhkim98/webMUSHRA/audio/heaacv1/te15_aac.wav
+          C4: /home/bhkim98/webMUSHRA/audio/dac/te15_dac_full.wav
+          C5: /home/bhkim98/webMUSHRA/audio/heaacv1/te15_aac.wav
+          C6: /home/bhkim98/webMUSHRA/audio/sauber/gd_max30_lr0p08_cfg2.0_dcoff_encc32_deccoff_encw4_msc32_ninilinear_nit1p5/te15_i200000.wav
+
+
     - type: finish
       name: Thank you
-      content: Thank you for attending!
+      content: Thank you for attending
+      popupContent: Your results were sent. Goodbye and have a nice day      
       showResults: true
       writeResults: true
-      questionnaire:
-          - type: text
-            label: eMail
-            name: email
-          - type: number
-            label: Age
-            name: age
-            min: 0
-            max: 100
-            default: 30
-          - type: likert
-            name: gender
-            label: Gender
-            response:
-             - value: female
-               label: Female
-             - value: male
-               label: Male
-             - value: other
-               label: Other
