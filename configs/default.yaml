@@ -9,33 +9,7 @@ pages:
 - type: instruction
   id: instructions
   name: Test Instructions
-  content: "<h3>MUSHRA Listening Test Instructions</h3><p><b>Setup:</b> Please use\
-    \ high-quality <b>headphones or earphones</b> in a quiet environment. Set your\
-    \ volume to a comfortable level before starting and keep it constant throughout\
-    \ the test.</p><h4>Procedure:</h4><ul><li>For each trial, listen to the <b>Reference</b>\
-    \ button first to familiarize yourself with the original sound.</li><li>Listen\
-    \ to each condition button (e.g., Cond. 1, Cond. 2) and compare it directly to\
-    \ the Reference.</li><li>Rate each condition on a continuous scale from <b>0 to\
-    \ 100</b> based on its similarity and quality relative to the Reference.</li></ul><h4>Rating\
-    \ Scale (ITU-R BS.1534):</h4><ul><li><b>80 \u2013 100 (Excellent):</b> Impairments\
-    \ are imperceptible or barely noticeable. Sounds virtually identical to the Reference.</li><li><b>60\
-    \ \u2013 80 (Good):</b> Impairments are perceptible but not annoying. Slight degradation\
-    \ in clarity, spatialness, or timbre.</li><li><b>40 \u2013 60 (Fair):</b> Impairments\
-    \ are slightly annoying. Quality drop is obvious, but audio remains intelligible.</li><li><b>20\
-    \ \u2013 40 (Poor):</b> Impairments are annoying (e.g., muffliness, distortion,\
-    \ metallic ringing).</li><li><b>0 \u2013 20 (Bad):</b> Impairments are very annoying.\
-    \ Severe distortion or heavy corruption.</li></ul><h4>Key Audio Artifacts to Listen\
-    \ For:</h4><ul><li><b>High-Frequency Loss:</b> Loss of high-pitched clarity or\
-    \ brightness (e.g., muffled speech or dull cymbals).</li><li><b>Signal Distortion\
-    \ & Colorization:</b> Unnatural changes in voice/instrument timbre (e.g., robotic,\
-    \ metallic, or hollow tone).</li><li><b>Missing Audio Components:</b> Subtle dropouts,\
-    \ truncated sound tails, or missing background details present in the Reference.</li><li><b>Noisy\
-    \ or Rough Reconstruction:</b> Added hiss, grainy textures, or unnatural buzzing\
-    \ over clean audio.</li></ul><h4>Critical Rules:</h4><ol><li><b>Find the Hidden\
-    \ Reference:</b> One condition is an exact copy of the Reference. You <b>MUST</b>\
-    \ rate this condition <b>exactly 100</b>.</li><li><b>Focus on Impairments:</b>\
-    \ Rate strictly on how much the processed audio deviates from or degrades relative\
-    \ to the Reference, not on personal musical/vocal preference.</li></ol>"
+  content: "<h3>MUSHRA Listening Test Instructions</h3><p><b>Setup:</b> Please use high-quality <b>headphones or earphones</b> in a quiet environment. Set your volume to a comfortable level before starting and keep it constant throughout the test.</p><h4>Procedure:</h4><ul><li>For each trial, listen to the <b>Reference</b> button first to familiarize yourself with the original sound.</li><li>Listen to each condition button (e.g., Cond. 1, Cond. 2) and compare it directly to the Reference.</li><li>Rate each condition on a continuous scale from <b>0 to 100</b> based on its similarity and quality relative to the Reference.</li></ul><h4>Rating Scale (ITU-R BS.1534):</h4><ul><li><b>80 \u2013 100 (Excellent):</b> Impairments are imperceptible or barely noticeable. Sounds virtually identical to the Reference.</li><li><b>60 \u2013 80 (Good):</b> Impairments are perceptible but not annoying. Slight degradation in clarity, spatialness, or timbre.</li><li><b>40 \u2013 60 (Fair):</b> Impairments are slightly annoying. Quality drop is obvious, but audio remains intelligible.</li><li><b>20 \u2013 40 (Poor):</b> Impairments are annoying (e.g., muffliness, distortion, metallic ringing).</li><li><b>0 \u2013 20 (Bad):</b> Impairments are very annoying. Severe distortion or heavy corruption.</li></ul><h4>Key Audio Artifacts to Listen For:</h4><ul><li><b>High-Frequency Loss:</b> Loss of high-pitched clarity or brightness (e.g., muffled speech or dull cymbals).</li><li><b>Signal Distortion & Colorization:</b> Unnatural changes in voice/instrument timbre (e.g., robotic, metallic, or hollow tone).</li><li><b>Missing Audio Components:</b> Subtle dropouts, truncated sound tails, or missing background details present in the Reference.</li><li><b>Noisy or Rough Reconstruction:</b> Added hiss, grainy textures, or unnatural buzzing over clean audio.</li></ul><h4>Critical Rules:</h4><ol><li><b>Find the Hidden Reference:</b> One condition is an exact copy of the Reference. You <b>MUST</b> rate this condition <b>exactly 100</b>.</li><li><b>Focus on Impairments:</b> Rate strictly on how much the processed audio deviates from or degrades relative to the Reference, not on personal musical/vocal preference.</li></ol>"
 - type: mushra
   id: trial1
   name: Trial 1 of 9
