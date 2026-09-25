@@ -5,6 +5,15 @@ stopOnErrors: true
 showButtonPreviousPage: true
 remoteService: service/write.php
 pages:
+- type: questionnaire
+  id: prolific_info
+  name: Prolific Verification
+  content: Please verify your Prolific ID before beginning.
+  questions:
+  - id: prolific_id
+    type: text
+    label: Prolific ID
+    required: true
 - type: mushra
   id: trial1
   name: Mono Trial
@@ -151,7 +160,8 @@ pages:
     aaclc: audio/aaclc/sc03.m4a
 - type: finish
   name: Thank you
-  content: Thank you for attending
-  popupContent: Your results were sent. Goodbye and have a nice day
-  showResults: false
+  content: Thank you for attending. Your results have been submitted.
+  popupContent: Your results were successfully recorded. Redirecting back to Prolific...
+  showResults: true
   writeResults: true
+  redirectUrl: https://app.prolific.com/submissions/complete?cc=YOUR_COMPLETION_CODE
