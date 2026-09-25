@@ -1,6 +1,6 @@
 testname: MUSHRA EBNAC testing 9 items
 testId: mushra_ebnac_24
-bufferSize: 2048
+bufferSize: 8192
 stopOnErrors: true
 showButtonPreviousPage: true
 showConditionNames: false
