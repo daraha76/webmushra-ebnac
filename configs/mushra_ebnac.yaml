@@ -22,12 +22,12 @@ pages:
     #   randomize: false
     #   showConditionNames: true
     #   stimuli:
-    #       C1: /home/bhkim98/webMUSHRA/audio/mp3/AAA_mp3.wav
-    #       C2: /home/bhkim98/webMUSHRA/audio/aaclc/AAA_aac.wav
-    #       C3: /home/bhkim98/webMUSHRA/audio/heaacv1/AAA_aac.wav
+    #       C1: /home/bhkim98/webMUSHRA/audio/mp3/AAA_mp3.mp3
+    #       C2: /home/bhkim98/webMUSHRA/audio/aaclc/AAA_aac.m4a
+    #       C3: /home/bhkim98/webMUSHRA/audio/heaacv1/AAA_aac.m4a
     #       C4: /home/bhkim98/webMUSHRA/audio/dac/AAA_dac_full.wav
     #       C5: /home/bhkim98/webMUSHRA/audio/heaacv1/AAA_aac.wav
-    #       C6: /home/bhkim98/webMUSHRA/audio/sauber/gd_max30_lr0p08_cfg2.0_dcoff_encc32_deccoff_encw4_msc32_ninilinear_nit1p5/AAA_i200000.wav
+    #       C6: /home/bhkim98/webMUSHRA/audio/ebnac/AAA_i200000.wav
           
 
     - type: mushra
@@ -42,12 +42,12 @@ pages:
       randomize: false
       showConditionNames: true
       stimuli:
-          C1: /home/bhkim98/webMUSHRA/audio/mp3/HarryPotter_mp3.wav
-          C2: /home/bhkim98/webMUSHRA/audio/aaclc/HarryPotter_aac.wav
-          C3: /home/bhkim98/webMUSHRA/audio/heaacv1/HarryPotter_aac.wav
+          C1: /home/bhkim98/webMUSHRA/audio/mp3/HarryPotter_mp3.mp3
+          C2: /home/bhkim98/webMUSHRA/audio/aaclc/HarryPotter_aac.m4a
+          C3: /home/bhkim98/webMUSHRA/audio/heaacv1/HarryPotter_aac.m4a
           C4: /home/bhkim98/webMUSHRA/audio/dac/HarryPotter_dac_full.wav
           C5: /home/bhkim98/webMUSHRA/audio/heaacv1/HarryPotter_aac.wav
-          C6: /home/bhkim98/webMUSHRA/audio/sauber/gd_max30_lr0p08_cfg2.0_dcoff_encc32_deccoff_encw4_msc32_ninilinear_nit1p5/HarryPotter_i200000.wav
+          C6: /home/bhkim98/webMUSHRA/audio/ebnac/HarryPotter_i200000.wav
     
     - type: mushra
       id: trial2
@@ -61,13 +61,12 @@ pages:
       randomize: false
       showConditionNames: true
       stimuli:
-          C1: /home/bhkim98/webMUSHRA/audio/mp3/te15_mp3.wav
-          C2: /home/bhkim98/webMUSHRA/audio/aaclc/te15_aac.wav
-          C3: /home/bhkim98/webMUSHRA/audio/heaacv1/te15_aac.wav
+          C1: /home/bhkim98/webMUSHRA/audio/mp3/te15_mp3.mp3
+          C2: /home/bhkim98/webMUSHRA/audio/aaclc/te15_aac.m4a
+          C3: /home/bhkim98/webMUSHRA/audio/heaacv1/te15_aac.m4a
           C4: /home/bhkim98/webMUSHRA/audio/dac/te15_dac_full.wav
           C5: /home/bhkim98/webMUSHRA/audio/heaacv1/te15_aac.wav
-          C6: /home/bhkim98/webMUSHRA/audio/sauber/gd_max30_lr0p08_cfg2.0_dcoff_encc32_deccoff_encw4_msc32_ninilinear_nit1p5/te15_i200000.wav
-
+          C6: /home/bhkim98/webMUSHRA/audio/ebnac/te15_i200000.wav
 
     - type: finish
       name: Thank you
