@@ -1,0 +1,48 @@
+SDR: 18.76 	rNMR: 0.041617 	mLMD: 2.2587 	mLSD: 2.6217 	Filename: Alice
+SDR: 15.54 	rNMR: 0.012827 	mLMD: 1.3838 	mLSD: 1.6539 	Filename: Arirang_speech
+SDR: 13.72 	rNMR: 0.014516 	mLMD: 1.5713 	mLSD: 1.9287 	Filename: Green_speech
+SDR: 15.13 	rNMR: 0.037463 	mLMD: 2.3020 	mLSD: 2.6290 	Filename: HarryPotter
+SDR: 18.71 	rNMR: 0.005620 	mLMD: 0.7971 	mLSD: 0.9931 	Filename: KoreanM1
+SDR: 13.46 	rNMR: 0.024706 	mLMD: 2.5580 	mLSD: 2.8120 	Filename: Music_1
+SDR: 17.66 	rNMR: 0.010295 	mLMD: 1.5542 	mLSD: 2.0465 	Filename: Music_2
+SDR: 18.90 	rNMR: 0.012683 	mLMD: 1.3172 	mLSD: 1.8277 	Filename: Music_3
+SDR: 12.26 	rNMR: 0.036969 	mLMD: 2.9859 	mLSD: 3.2263 	Filename: Music_4
+SDR: 20.88 	rNMR: 0.016360 	mLMD: 1.7651 	mLSD: 2.1832 	Filename: Music_5
+SDR: 14.37 	rNMR: 0.029013 	mLMD: 2.2408 	mLSD: 2.6156 	Filename: SpeechOverMusic_1
+SDR: 18.89 	rNMR: 0.024407 	mLMD: 2.2034 	mLSD: 2.6518 	Filename: SpeechOverMusic_2
+SDR: 12.06 	rNMR: 0.039477 	mLMD: 2.8611 	mLSD: 2.7712 	Filename: SpeechOverMusic_3
+SDR: 14.86 	rNMR: 0.042547 	mLMD: 2.9403 	mLSD: 3.2202 	Filename: SpeechOverMusic_4
+SDR: 10.74 	rNMR: 0.043134 	mLMD: 3.1534 	mLSD: 3.3274 	Filename: SpeechOverMusic_5
+SDR: 22.95 	rNMR: 0.025656 	mLMD: 2.1828 	mLSD: 2.4972 	Filename: Wedding_music
+SDR: 17.44 	rNMR: 0.019466 	mLMD: 1.5472 	mLSD: 1.8272 	Filename: Wedding_speech
+SDR: 21.19 	rNMR: 0.019343 	mLMD: 1.5408 	mLSD: 1.9945 	Filename: brahms
+SDR: 13.65 	rNMR: 0.028126 	mLMD: 2.1453 	mLSD: 2.4084 	Filename: carrot_speech
+SDR: 19.01 	rNMR: 0.030473 	mLMD: 2.6311 	mLSD: 3.0023 	Filename: dongwoo
+SDR: 15.41 	rNMR: 0.035803 	mLMD: 2.4430 	mLSD: 2.8193 	Filename: dora
+SDR: 14.52 	rNMR: 0.024603 	mLMD: 2.4589 	mLSD: 2.8391 	Filename: es01
+SDR: 14.52 	rNMR: 0.024603 	mLMD: 2.4589 	mLSD: 2.8391 	Filename: es01_st
+SDR: 16.44 	rNMR: 0.029155 	mLMD: 2.0825 	mLSD: 2.4442 	Filename: es02
+SDR: 17.70 	rNMR: 0.033437 	mLMD: 2.0806 	mLSD: 2.4232 	Filename: es03
+SDR: 15.14 	rNMR: 0.026240 	mLMD: 1.8333 	mLSD: 2.1097 	Filename: lion
+SDR: 18.26 	rNMR: 0.025570 	mLMD: 1.9369 	mLSD: 2.0131 	Filename: louis_raquin_15
+SDR: 12.97 	rNMR: 0.044683 	mLMD: 2.6737 	mLSD: 2.9502 	Filename: noodleking
+SDR: 14.64 	rNMR: 0.051143 	mLMD: 3.5556 	mLSD: 3.5760 	Filename: phi1
+SDR: 25.78 	rNMR: 0.025206 	mLMD: 2.7413 	mLSD: 3.1497 	Filename: phi2
+SDR: 17.72 	rNMR: 0.023471 	mLMD: 2.2653 	mLSD: 2.7166 	Filename: phi3
+SDR: 21.97 	rNMR: 0.024546 	mLMD: 2.2292 	mLSD: 2.7408 	Filename: phi4
+SDR: 15.57 	rNMR: 0.017562 	mLMD: 2.1313 	mLSD: 2.6949 	Filename: phi5
+SDR: 29.96 	rNMR: 0.011330 	mLMD: 1.7978 	mLSD: 2.3430 	Filename: phi6
+SDR: 27.46 	rNMR: 0.059679 	mLMD: 1.8384 	mLSD: 2.1355 	Filename: phi7
+SDR: 20.25 	rNMR: 0.007623 	mLMD: 1.3916 	mLSD: 1.9130 	Filename: salvation
+SDR: 11.99 	rNMR: 0.030173 	mLMD: 2.6050 	mLSD: 2.9426 	Filename: sc03
+SDR: 17.54 	rNMR: 0.066898 	mLMD: 2.8521 	mLSD: 3.0646 	Filename: te09
+SDR: 14.65 	rNMR: 0.028317 	mLMD: 2.1577 	mLSD: 2.4921 	Filename: te15
+SDR: 16.25 	rNMR: 0.038292 	mLMD: 2.5890 	mLSD: 2.9603 	Filename: te16_fe49
+SDR: 15.25 	rNMR: 0.018944 	mLMD: 1.6590 	mLSD: 2.0763 	Filename: te19
+SDR: 15.92 	rNMR: 0.020294 	mLMD: 1.9272 	mLSD: 2.3190 	Filename: te1_mg54_speech
+SDR: 20.07 	rNMR: 0.021039 	mLMD: 2.7478 	mLSD: 3.2540 	Filename: trilogy
+SDR: 26.20 	rNMR: 0.026258 	mLMD: 2.3222 	mLSD: 2.7094 	Filename: twinkle_ff51
+
+
+<Average>
+SDR: 17.42 	rNMR: 0.027945 	mLMD: 2.1981 	mLMD: 2.5401 	
