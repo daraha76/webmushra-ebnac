@@ -171,6 +171,6 @@ pages:
   name: Thank you
   content: Thank you for attending. Your results have been submitted.
   popupContent: Your results were successfully recorded.
-  showResults: true
+  showResults: false
   writeResults: true
   redirectUrl: https://app.prolific.com/submissions/complete?cc=YOUR_COMPLETION_CODE
