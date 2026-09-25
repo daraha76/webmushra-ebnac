@@ -4,7 +4,7 @@ bufferSize: 8192
 stopOnErrors: true
 showButtonPreviousPage: true
 showConditionNames: false
-remoteService: service/write.php
+remoteService: https://formspree.io/f/mrpbaloe
 pages:
 - type: generic
   id: instructions
@@ -169,4 +169,4 @@ pages:
   popupContent: Your results were successfully recorded.
   showResults: false
   writeResults: true
-  redirectUrl: https://app.prolific.com/submissions/complete?cc=YOUR_COMPLETION_CODE
+  redirectUrl: https://app.prolific.com/submissions/complete?cc=CWO403LO
